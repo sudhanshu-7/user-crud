@@ -1,0 +1,17 @@
+.item{
+    padding:20px;
+    text-align: center ;
+    border: 2px solid red;
+    box-shadow: 10px 10px 3px rgba(56, 53, 53, 0.555);
+    margin:10px;
+    width: 60vw;
+    transition: all 0.1s;
+}
+.item:hover{
+    transform: translateY(-4px);
+    box-shadow: 10px 14px 5px rgba(56, 53, 53, 0.555);
+}
+.error{
+    padding:10px;
+    background-color: rgb(255, 155, 155);
+}
